@@ -1,7 +1,7 @@
 {
   "name": "webtorrent-fixtures",
   "description": "Sample torrent files for the WebTorrent test suite",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": {
     "email": "feross@feross.org",
     "name": "Feross Aboukhadijeh",
