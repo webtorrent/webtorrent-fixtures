@@ -48,5 +48,11 @@ module.exports = {
     torrentPath: path.join(__dirname, 'fixtures', 'bunny.torrent'),
     torrent: fs.readFileSync(path.join(__dirname, 'fixtures', 'bunny.torrent')),
     parsedTorrent: parseTorrent(fs.readFileSync(path.join(__dirname, 'fixtures', 'bunny.torrent')))
+  },
+
+  // Invalid .torrent file
+  corrupt: {
+    torrentPath: path.join(__dirname, 'fixtures', 'corrupt.torrent'),
+    torrent: fs.readFileSync(path.join(__dirname, 'fixtures', 'corrupt.torrent'))
   }
 }
