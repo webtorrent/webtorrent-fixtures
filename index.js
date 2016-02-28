@@ -54,5 +54,11 @@ module.exports = {
   corrupt: {
     torrentPath: path.join(__dirname, 'fixtures', 'corrupt.torrent'),
     torrent: fs.readFileSync(path.join(__dirname, 'fixtures', 'corrupt.torrent'))
+  },
+
+  // ip-set formatted files (i.e. blocklists)
+  blocklist: {
+    path: path.join(__dirname, 'fixtures', 'blocklist.txt'),
+    gzipPath: path.join(__dirname, 'fixtures', 'blocklist.txt.gz')
   }
 }
