@@ -43,10 +43,10 @@ module.exports = {
     magnetURI: parseTorrent.toMagnetURI(parseTorrent(fs.readFileSync(path.join(__dirname, 'fixtures', 'numbers.torrent'))))
   },
 
-  // Torrent file with "private" flag
+  // Torrent file with "private" flag, and "url-list" property
   bunny: {
-    torrentPath: path.join(__dirname, 'fixtures', 'bunny-private.torrent'),
-    torrent: fs.readFileSync(path.join(__dirname, 'fixtures', 'bunny-private.torrent')),
-    parsedTorrent: parseTorrent(fs.readFileSync(path.join(__dirname, 'fixtures', 'bunny-private.torrent')))
+    torrentPath: path.join(__dirname, 'fixtures', 'bunny.torrent'),
+    torrent: fs.readFileSync(path.join(__dirname, 'fixtures', 'bunny.torrent')),
+    parsedTorrent: parseTorrent(fs.readFileSync(path.join(__dirname, 'fixtures', 'bunny.torrent')))
   }
 }
