@@ -7,8 +7,17 @@
     "name": "Feross Aboukhadijeh",
     "url": "http://feross.org/"
   },
+  "browserify": {
+    "transform": [
+      "brfs"
+    ]
+  },
   "bugs": {
     "url": "https://github.com/feross/webtorrent-fixtures/issues"
+  },
+  "dependencies": {
+    "brfs": "^1.4.3",
+    "parse-torrent": "^5.7.1"
   },
   "devDependencies": {
     "standard": "^6.0.7"
@@ -30,8 +39,5 @@
   },
   "scripts": {
     "test": "standard && node -e \"require('.')\""
-  },
-  "dependencies": {
-    "parse-torrent": "^5.7.1"
   }
 }
