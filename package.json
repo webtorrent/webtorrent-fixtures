@@ -14,13 +14,13 @@
     "standard": "^6.0.7"
   },
   "keywords": [
-    "webtorrent",
+    "sample torrents",
     "test",
     "test fixtures",
-    "webtorrent test",
-    "sample torrents",
     "torrent",
-    "torrent files"
+    "torrent files",
+    "webtorrent",
+    "webtorrent test"
   ],
   "license": "MIT",
   "main": "index.js",
