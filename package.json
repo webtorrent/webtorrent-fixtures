@@ -1,6 +1,6 @@
 {
   "name": "webtorrent-fixtures",
-  "description": "List of Packages that Use JavaScript Standard Style",
+  "description": "Sample torrent files for the WebTorrent test suite",
   "version": "1.0.0",
   "author": {
     "email": "feross@feross.org",

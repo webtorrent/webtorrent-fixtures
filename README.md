@@ -5,6 +5,10 @@
 [npm-image]: https://img.shields.io/npm/v/webtorrent-fixtures.svg
 [npm-url]: https://npmjs.org/package/webtorrent-fixtures
 
+### Sample torrent files for the WebTorrent test suite
+
+Torrent and content test files. All files are Public Domain or Creative Commons.
+
 ## Usage
 
 ```js
