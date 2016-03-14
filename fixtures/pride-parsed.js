@@ -1,4 +1,4 @@
-module.exports={
+module.exports = {
   infoHash: '455a2295b558ac64e0348fb0c61f433224484908',
   infoHashBuffer: new Buffer('455a2295b558ac64e0348fb0c61f433224484908', 'hex'),
   name: 'PRIDE AND PREJUDICE  - Jane Austen',
@@ -126,15 +126,15 @@ module.exports={
     files: [
       {
         length: 690450,
-        path: [ new Buffer('Pride_and_Prejudice.pdf') ]
+        path: [new Buffer('Pride_and_Prejudice.pdf')]
       },
       {
         length: 487076,
-        path: [ new Buffer('Pride_and_Prejudice.mobi') ]
+        path: [new Buffer('Pride_and_Prejudice.mobi')]
       },
       {
         length: 305164,
-        path: [ new Buffer('Pride and Prejudice.epub') ]
+        path: [new Buffer('Pride and Prejudice.epub')]
       }
     ],
     name: new Buffer('UFJJREUgQU5EIFBSRUpVRElDRSAgLSBKYW5lIEF1c3Rlbg==', 'base64'),

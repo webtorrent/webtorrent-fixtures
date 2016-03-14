@@ -11,7 +11,7 @@ module.exports = {
     torrentPath: path.join(__dirname, 'fixtures', 'leaves.torrent'),
     content: fs.readFileSync(path.join(__dirname, 'fixtures', 'Leaves of Grass by Walt Whitman.epub')),
     torrent: fs.readFileSync(path.join(__dirname, 'fixtures', 'leaves.torrent')),
-    parsedTorrent: require("./fixtures/leaves-parsed"),
+    parsedTorrent: require('./fixtures/leaves-parsed'),
     magnetURI: parseTorrent.toMagnetURI(parseTorrent(fs.readFileSync(path.join(__dirname, 'fixtures', 'leaves.torrent'))))
   },
 
@@ -19,7 +19,7 @@ module.exports = {
   leavesMagnet: {
     torrentPath: path.join(__dirname, 'fixtures', 'leaves-magnet.torrent'),
     torrent: fs.readFileSync(path.join(__dirname, 'fixtures', 'leaves-magnet.torrent')),
-    parsedTorrent: require("./fixtures/leaves-magnet-parsed")
+    parsedTorrent: require('./fixtures/leaves-magnet-parsed')
   },
 
   // A torrent with duplicated announce tracker
@@ -50,14 +50,14 @@ module.exports = {
   pride: {
     torrentPath: path.join(__dirname, 'fixtures', 'pride.torrent'),
     torrent: fs.readFileSync(path.join(__dirname, 'fixtures', 'pride.torrent')),
-    parsedTorrent: require("./fixtures/pride-parsed")
+    parsedTorrent: require('./fixtures/pride-parsed')
   },
 
   // A torrent with no announce-list
   bitloveIntro: {
     torrentPath: path.join(__dirname, 'fixtures', 'bitlove-intro.torrent'),
     torrent: fs.readFileSync(path.join(__dirname, 'fixtures', 'bitlove-intro.torrent')),
-    parsedTorrent: require("./fixtures/bitlove-intro-parsed")
+    parsedTorrent: require('./fixtures/bitlove-intro-parsed')
   },
 
   // Alice's Adventures in Wonderland, by Lewis Carroll

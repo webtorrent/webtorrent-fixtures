@@ -1,4 +1,4 @@
-module.exports={
+module.exports = {
   infoHash: 'd2474e86c95b19b8bcfdb92bc12c9d44667cfa36',
   infoHashBuffer: new Buffer('d2474e86c95b19b8bcfdb92bc12c9d44667cfa36', 'hex'),
   name: 'Leaves of Grass by Walt Whitman.epub',
