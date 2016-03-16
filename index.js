@@ -59,6 +59,16 @@ module.exports = {
     magnetURI: parseTorrent.toMagnetURI(parseTorrent(fs.readFileSync(path.join(__dirname, 'fixtures', 'sintel.torrent'))))
   },
 
+  // Leaves of Grass, by Walt Whitman (only the metadata portion received via ut_metadata)
+  leavesMetadata: {
+    contentPath: path.join(__dirname, 'fixtures', 'Leaves of Grass by Walt Whitman.epub'),
+    torrentPath: path.join(__dirname, 'fixtures', 'leaves-metadata.torrent'),
+    content: fs.readFileSync(path.join(__dirname, 'fixtures', 'Leaves of Grass by Walt Whitman.epub')),
+    torrent: fs.readFileSync(path.join(__dirname, 'fixtures', 'leaves-metadata.torrent')),
+    parsedTorrent: parseTorrent(fs.readFileSync(path.join(__dirname, 'fixtures', 'leaves-metadata.torrent'))),
+    magnetURI: parseTorrent.toMagnetURI(parseTorrent(fs.readFileSync(path.join(__dirname, 'fixtures', 'leaves-metadata.torrent'))))
+  },
+
   // Invalid .torrent file
   corrupt: {
     torrentPath: path.join(__dirname, 'fixtures', 'corrupt.torrent'),
