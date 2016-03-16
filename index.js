@@ -43,11 +43,20 @@ module.exports = {
     magnetURI: parseTorrent.toMagnetURI(parseTorrent(fs.readFileSync(path.join(__dirname, 'fixtures', 'numbers.torrent'))))
   },
 
-  // Torrent file with "private" flag, and "url-list" property
+  // Big Buck Bunny, by Blender Foundation ("private" flag, "url-list" property, 434 MB)
   bunny: {
     torrentPath: path.join(__dirname, 'fixtures', 'bunny.torrent'),
     torrent: fs.readFileSync(path.join(__dirname, 'fixtures', 'bunny.torrent')),
-    parsedTorrent: parseTorrent(fs.readFileSync(path.join(__dirname, 'fixtures', 'bunny.torrent')))
+    parsedTorrent: parseTorrent(fs.readFileSync(path.join(__dirname, 'fixtures', 'bunny.torrent'))),
+    magnetURI: parseTorrent.toMagnetURI(parseTorrent(fs.readFileSync(path.join(__dirname, 'fixtures', 'bunny.torrent'))))
+  },
+
+  // Sintel, by Blender Foundation (5.5 GB)
+  sintel: {
+    torrentPath: path.join(__dirname, 'fixtures', 'sintel.torrent'),
+    torrent: fs.readFileSync(path.join(__dirname, 'fixtures', 'sintel.torrent')),
+    parsedTorrent: parseTorrent(fs.readFileSync(path.join(__dirname, 'fixtures', 'sintel.torrent'))),
+    magnetURI: parseTorrent.toMagnetURI(parseTorrent(fs.readFileSync(path.join(__dirname, 'fixtures', 'sintel.torrent'))))
   },
 
   // Invalid .torrent file
