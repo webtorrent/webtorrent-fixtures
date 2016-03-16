@@ -69,7 +69,7 @@ module.exports = {
     magnetURI: parseTorrent.toMagnetURI(parseTorrent(fs.readFileSync(path.join(__dirname, 'fixtures', 'leaves-metadata.torrent'))))
   },
 
-  // Invalid .torrent file
+  // Invalid .torrent file (missing `name` field)
   corrupt: {
     torrentPath: path.join(__dirname, 'fixtures', 'corrupt.torrent'),
     torrent: fs.readFileSync(path.join(__dirname, 'fixtures', 'corrupt.torrent'))
