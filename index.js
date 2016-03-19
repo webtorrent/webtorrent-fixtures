@@ -43,7 +43,7 @@ module.exports = {
     magnetURI: parseTorrent.toMagnetURI(parseTorrent(fs.readFileSync(path.join(__dirname, 'fixtures', 'numbers.torrent'))))
   },
 
-  // Folder which contains multiple files
+  // Folder which contains subfolders with multiple files
   lotsOfNumbers: {
     contentPath: path.join(__dirname, 'fixtures', 'lots-of-numbers'),
     torrentPath: path.join(__dirname, 'fixtures', 'lots-of-numbers.torrent'),
