@@ -43,6 +43,15 @@ module.exports = {
     magnetURI: parseTorrent.toMagnetURI(parseTorrent(fs.readFileSync(path.join(__dirname, 'fixtures', 'numbers.torrent'))))
   },
 
+  // Folder which contains multiple files
+  lotsOfNumbers: {
+    contentPath: path.join(__dirname, 'fixtures', 'lots-of-numbers'),
+    torrentPath: path.join(__dirname, 'fixtures', 'lots-of-numbers.torrent'),
+    torrent: fs.readFileSync(path.join(__dirname, 'fixtures', 'lots-of-numbers.torrent')),
+    parsedTorrent: parseTorrent(fs.readFileSync(path.join(__dirname, 'fixtures', 'lots-of-numbers.torrent'))),
+    magnetURI: parseTorrent.toMagnetURI(parseTorrent(fs.readFileSync(path.join(__dirname, 'fixtures', 'lots-of-numbers.torrent'))))
+  },
+
   // Big Buck Bunny, by Blender Foundation ("private" flag, "url-list" property, 434 MB)
   bunny: {
     torrentPath: path.join(__dirname, 'fixtures', 'bunny.torrent'),
