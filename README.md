@@ -1,7 +1,7 @@
 # webtorrent-fixtures [![travis][travis-image]][travis-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url] [![javascript style guide][standard-image]][standard-url]
 
-[travis-image]: https://img.shields.io/travis/feross/webtorrent-fixtures/master.svg
-[travis-url]: https://travis-ci.org/feross/webtorrent-fixtures
+[travis-image]: https://img.shields.io/travis/webtorrent/webtorrent-fixtures/master.svg
+[travis-url]: https://travis-ci.org/webtorrent/webtorrent-fixtures
 [npm-image]: https://img.shields.io/npm/v/webtorrent-fixtures.svg
 [npm-url]: https://npmjs.org/package/webtorrent-fixtures
 [downloads-image]: https://img.shields.io/npm/dm/webtorrent-fixtures.svg
@@ -22,4 +22,4 @@ console.log(fixtures.leaves)
 
 ## License
 
-MIT. Copyright (c) [Feross Aboukhadijeh](http://feross.org).
+MIT. Copyright (c) [Feross Aboukhadijeh](https://feross.org) and [WebTorrent, LLC](https://webtorrent.io).

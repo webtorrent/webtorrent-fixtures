@@ -3,9 +3,9 @@
   "description": "Sample torrent files for the WebTorrent test suite",
   "version": "1.5.0",
   "author": {
-    "email": "feross@feross.org",
-    "name": "Feross Aboukhadijeh",
-    "url": "http://feross.org/"
+    "name": "WebTorrent, LLC",
+    "email": "feross@webtorrent.io",
+    "url": "https://webtorrent.io"
   },
   "browserify": {
     "transform": [
@@ -13,7 +13,7 @@
     ]
   },
   "bugs": {
-    "url": "https://github.com/feross/webtorrent-fixtures/issues"
+    "url": "https://github.com/webtorrent/webtorrent-fixtures/issues"
   },
   "dependencies": {
     "brfs": "^1.4.3",
@@ -35,7 +35,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/feross/webtorrent-fixtures.git"
+    "url": "git://github.com/webtorrent/webtorrent-fixtures.git"
   },
   "scripts": {
     "test": "standard && node -e \"require('.')\""
