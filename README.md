@@ -1,4 +1,4 @@
-# webtorrent-fixtures [![travis][travis-image]][travis-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url] [![javascript style guide][standard-image]][standard-url]
+# webtorrent-fixtures [![travis][travis-image]][travis-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url] [![javascript style guide][standard-image]][standard-url] [![Greenkeeper badge][greenkeeper-image]][greenkeeper-url]
 
 [travis-image]: https://img.shields.io/travis/webtorrent/webtorrent-fixtures/master.svg
 [travis-url]: https://travis-ci.org/webtorrent/webtorrent-fixtures
@@ -8,6 +8,8 @@
 [downloads-url]: https://npmjs.org/package/webtorrent-fixtures
 [standard-image]: https://img.shields.io/badge/code_style-standard-brightgreen.svg
 [standard-url]: https://standardjs.com
+[greenkeeper-image]: https://badges.greenkeeper.io/webtorrent/webtorrent-fixtures.svg
+[greenkeeper-url]: https://greenkeeper.io/
 
 ### Sample torrent files for the WebTorrent test suite
 
