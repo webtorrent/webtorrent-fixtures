@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "brfs": "^1.4.3",
-    "parse-torrent": "^5.7.1"
+    "parse-torrent": "^6.0.0"
   },
   "devDependencies": {
     "standard": "*"
