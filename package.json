@@ -16,7 +16,7 @@
     "url": "https://github.com/webtorrent/webtorrent-fixtures/issues"
   },
   "dependencies": {
-    "brfs": "^1.4.3",
+    "brfs": "^2.0.0",
     "parse-torrent": "^6.0.0"
   },
   "devDependencies": {
