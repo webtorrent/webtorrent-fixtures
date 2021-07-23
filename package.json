@@ -20,6 +20,8 @@
     "parse-torrent": "^7.0.0"
   },
   "devDependencies": {
+    "@webtorrent/semantic-release-config": "1.0.5",
+    "semantic-release": "17.4.4",
     "standard": "*"
   },
   "keywords": [
@@ -39,5 +41,13 @@
   },
   "scripts": {
     "test": "standard && node -e \"require('.')\""
+  },
+  "renovate": {
+    "extends": [
+      "github>webtorrent/renovate-config"
+    ]
+  },
+  "release": {
+    "extends": "@webtorrent/semantic-release-config"
   }
 }

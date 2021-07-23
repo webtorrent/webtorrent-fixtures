@@ -1,5 +1,4 @@
 // Torrent and content test files. Content is Public Domain or Creative Commons.
-
 const fs = require('fs')
 const path = require('path')
 const parseTorrent = require('parse-torrent')
