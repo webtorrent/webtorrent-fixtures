@@ -20,7 +20,7 @@
     "parse-torrent": "^7.0.0"
   },
   "devDependencies": {
-    "@webtorrent/semantic-release-config": "1.0.5",
+    "@webtorrent/semantic-release-config": "1.0.7",
     "semantic-release": "17.4.5",
     "standard": "*"
   },
