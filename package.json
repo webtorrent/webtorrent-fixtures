@@ -15,6 +15,7 @@
   "bugs": {
     "url": "https://github.com/webtorrent/webtorrent-fixtures/issues"
   },
+  "type": "module",
   "dependencies": {
     "brfs": "^2.0.0",
     "parse-torrent": "^7.0.0"
@@ -34,13 +35,18 @@
     "webtorrent test"
   ],
   "license": "MIT",
-  "main": "index.js",
+  "engines": {
+    "node": ">=12.20.0"
+  },
+  "exports": {
+    "import": "./index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/webtorrent/webtorrent-fixtures.git"
   },
   "scripts": {
-    "test": "standard && node -e \"require('.')\""
+    "test": "standard && node --input-type=module -e \"import './index.js'\""
   },
   "renovate": {
     "extends": [

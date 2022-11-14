@@ -16,7 +16,7 @@ Torrent and content test files. All files are Public Domain or Creative Commons.
 ## Usage
 
 ```js
-const fixtures = require('webtorrent-fixtures')
+import fixtures from 'webtorrent-fixtures'
 console.log(fixtures.leaves)
 ```
 
