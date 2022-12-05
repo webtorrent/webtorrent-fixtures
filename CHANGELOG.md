@@ -1,3 +1,20 @@
+# [2.0.0](https://github.com/webtorrent/webtorrent-fixtures/compare/v1.7.5...v2.0.0) (2022-12-05)
+
+
+* Merge pull request #20 from ThaUnknown/esm ([a028016](https://github.com/webtorrent/webtorrent-fixtures/commit/a028016b8051d6a094c19a7f73ce27ced26c210b)), closes [#20](https://github.com/webtorrent/webtorrent-fixtures/issues/20)
+
+
+### Features
+
+* esm ([e4dc681](https://github.com/webtorrent/webtorrent-fixtures/commit/e4dc68159e346bae73ee67821ba2020f19a11989))
+
+
+### BREAKING CHANGES
+
+* ESM only
+
+feat: esm
+
 ## [1.7.5](https://github.com/webtorrent/webtorrent-fixtures/compare/v1.7.4...v1.7.5) (2021-07-30)
 
 
