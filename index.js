@@ -1,9 +1,14 @@
 // Torrent and content test files. Content is Public Domain or Creative Commons.
-const fs = require('fs')
-const path = require('path')
-const parseTorrent = require('parse-torrent')
+import fs from 'fs'
+import path, { dirname } from 'path'
+import parseTorrent from 'parse-torrent'
 
-module.exports = {
+import { fileURLToPath } from 'url'
+
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = dirname(__filename)
+
+export default {
   // Leaves of Grass, by Walt Whitman
   leaves: {
     contentPath: path.join(__dirname, 'fixtures', 'Leaves of Grass by Walt Whitman.epub'),
