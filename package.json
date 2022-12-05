@@ -18,7 +18,7 @@
   "type": "module",
   "dependencies": {
     "brfs": "^2.0.0",
-    "parse-torrent": "^7.0.0"
+    "parse-torrent": "^10.0.0"
   },
   "devDependencies": {
     "@webtorrent/semantic-release-config": "1.0.7",
