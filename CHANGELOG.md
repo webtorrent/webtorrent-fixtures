@@ -1,3 +1,10 @@
+## [2.0.2](https://github.com/webtorrent/webtorrent-fixtures/compare/v2.0.1...v2.0.2) (2023-01-31)
+
+
+### Bug Fixes
+
+* top level await ([8f3f092](https://github.com/webtorrent/webtorrent-fixtures/commit/8f3f092e6e05da7b8d56c0e0aeabc43903fbb290))
+
 ## [2.0.1](https://github.com/webtorrent/webtorrent-fixtures/compare/v2.0.0...v2.0.1) (2023-01-31)
 
 
