@@ -1,3 +1,11 @@
+## [2.0.1](https://github.com/webtorrent/webtorrent-fixtures/compare/v2.0.0...v2.0.1) (2023-01-31)
+
+
+### Bug Fixes
+
+* **deps:** update dependency parse-torrent to v11 ([1e82400](https://github.com/webtorrent/webtorrent-fixtures/commit/1e82400da85aebff708bb66bbbca2785296781b5))
+* esm imports ([edd66e7](https://github.com/webtorrent/webtorrent-fixtures/commit/edd66e76eb61156f269296cf2f515dd6c5e29f71))
+
 # [2.0.0](https://github.com/webtorrent/webtorrent-fixtures/compare/v1.7.5...v2.0.0) (2022-12-05)
 
 
