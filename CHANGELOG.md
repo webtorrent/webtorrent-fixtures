@@ -1,3 +1,10 @@
+## [2.0.3](https://github.com/webtorrent/webtorrent-fixtures/compare/v2.0.2...v2.0.3) (2026-05-25)
+
+
+### Bug Fixes
+
+* **release:** update release.yml to include permissions ([99b122a](https://github.com/webtorrent/webtorrent-fixtures/commit/99b122aa865f1956ef3250b5d649bc883bba993e))
+
 ## [2.0.2](https://github.com/webtorrent/webtorrent-fixtures/compare/v2.0.1...v2.0.2) (2023-01-31)
 
 
